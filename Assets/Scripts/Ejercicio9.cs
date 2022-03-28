@@ -11,12 +11,13 @@ public class Ejercicio9 : MonoBehaviour
 
     // Start is called before the first frame update
 
+    public string nombre1, nombre2, nombre3;
     public float persona1, persona2, persona3;
     void Start()
     {
-        Debug.Log("Nombre: Persona1, Capital Aportado: $" + persona1 + ", Porcentaje del capital: %" + persona1 / (persona1 + persona2 + persona3) * 100 + ", Monto total aportado: $" + (persona1 + persona2 + persona3));
-        Debug.Log("Nombre: Persona2, Capital Aportado: $" + persona2 + ", Porcentaje del capital: %" + persona2 / (persona1 + persona2 + persona3) * 100 + ", Monto total aportado: $" + (persona1 + persona2 + persona3));
-        Debug.Log("Nombre: Persona2, Capital Aportado: $" + persona3 + ", Porcentaje del capital: %" + persona3 / (persona1 + persona2 + persona3) * 100 + ", Monto total aportado: $" + (persona1 + persona2 + persona3));
+        Debug.Log("Nombre:" + nombre1 + " , Capital Aportado: $" + persona1 + ", Porcentaje del capital: %" + persona1 / (persona1 + persona2 + persona3) * 100 + ", Monto total aportado: $" + (persona1 + persona2 + persona3));
+        Debug.Log("Nombre:" + nombre2 + " , Capital Aportado: $" + persona2 + ", Porcentaje del capital: %" + persona2 / (persona1 + persona2 + persona3) * 100 + ", Monto total aportado: $" + (persona1 + persona2 + persona3));
+        Debug.Log("Nombre:" + nombre3 + " , Capital Aportado: $" + persona3 + ", Porcentaje del capital: %" + persona3 / (persona1 + persona2 + persona3) * 100 + ", Monto total aportado: $" + (persona1 + persona2 + persona3));
 
     }
 
