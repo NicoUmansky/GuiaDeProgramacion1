@@ -14,37 +14,32 @@ public class Ejercicio8 : MonoBehaviour
 
     void Start()
     {
-        if (dia == 1)
+        switch (dia)
         {
-            Debug.Log("Hoy es Domingo");
-        }
-        if (dia == 2)
-        {
-            Debug.Log("Hoy es Lunes");
-        }
-        if (dia == 3)
-        {
-            Debug.Log("Hoy es Martes");
-        }
-        if (dia == 4)
-        {
-            Debug.Log("Hoy es Miercoles");
-        }
-        if (dia == 5)
-        {
-            Debug.Log("Hoy es Jueves");
-        }
-        if (dia == 6)
-        {
-            Debug.Log("Hoy es Viernes");
-        }
-        if (dia == 7)
-        {
-            Debug.Log("Hoy es Sabado");
-        }
-        if (dia > 7)
-        {
-            Debug.Log("El d[ia ingresado no es valido");
+            case 1:
+                Debug.Log("Domingo");
+                break;
+            case 2:
+                Debug.Log("Lunes");
+                break;
+            case 3:
+                Debug.Log("Martes");
+                break;
+            case 4:
+                Debug.Log("Miércoles");
+                break;
+            case 5:
+                Debug.Log("Jueves");
+                break;
+            case 6:
+                Debug.Log("Viernes");
+                break;
+            case 7:
+                Debug.Log("Sabado");
+                break;
+            default:
+                Debug.Log("El día ingresado no es valido");
+                break;
         }
     }
 
