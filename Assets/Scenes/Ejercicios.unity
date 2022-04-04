@@ -739,6 +739,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb29e17cf39a4354d81f3ecba2d92007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FechaCompra: 4/4/2022
+  NombreComprador: "Nicol\xE1s Umansky"
+  NombreProducto: "Jab\xF3n en polvo"
+  CantidadProducto: 3
+  PrecioProducto: 150
 --- !u!4 &2108622536
 Transform:
   m_ObjectHideFlags: 0
