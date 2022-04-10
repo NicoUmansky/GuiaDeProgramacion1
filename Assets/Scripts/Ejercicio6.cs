@@ -21,10 +21,4 @@ public class Ejercicio6 : MonoBehaviour
             Debug.Log("El numero es impar");
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
